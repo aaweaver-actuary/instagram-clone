@@ -12,7 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        instagram: {
+          primaryButtonBg: '#0095F6',
+          primaryButtonBgHover: 'rgb(24, 119, 242)',
+          primaryButtonBgActive: '#77A7FF',
+        },
+      },
     },
   },
   plugins: [],
-}
+};
